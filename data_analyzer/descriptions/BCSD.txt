@@ -1,0 +1,14 @@
+Название: Blood Cell Segmentation Dataset (BCSD)
+Описание: Датасет Blood Cell Segmentation Dataset предназначен для сегментации клеток крови на микроскопических изображениях и содержит 2656 изображений (1328 пар исходных изображений и соответствующих им размеченных масок).  Датасет разделен на обучающую (1169 изображений) и тестовую (159 изображений) выборки.
+Формат данных:  Цветные изображения в формате JPEG/PNG, разрешение изображений варьируется. Маски сегментации представлены бинарными изображениями в JPEG/PNG формате.
+
+Цитирование
+
+@misc{deponker_sarker_depto_shazidur_rahman_md__mekayel_hosen_mst_shapna_akter_tamanna_rahman_reme_aimon_rahman_hasib_zunai_m_r_c_mahdy_m__sohel_rahman_jeet_b_lahiri_2023,
+ title={Blood Cell Segmentation Dataset},
+ url={https://www.kaggle.com/dsv/6107556},
+ DOI={10.34740/KAGGLE/DSV/6107556},
+ publisher={Kaggle},
+ author={Deponker Sarker Depto and Shazidur Rahman and Md. Mekayel Hosen and Mst Shapna Akter and Tamanna Rahman Reme and Aimon Rahman and Hasib Zunai and M.R.C.Mahdy and M. Sohel Rahman and Jeet B Lahiri},
+ year={2023}
+}
