@@ -11,10 +11,11 @@ def load_and_sort_files_brats(directory):
     files.sort(key=lambda x: int(os.path.basename(x).split('_')[1]))
     return files
 
-
 def get_slice_data(file_path, slice_idx=0):
     """Получение конкретного среза"""
-    image, mask = load_volume(file_path)
+    with h5py.File(file_path, 'r') as hf:
+        image = hf['image'][:]
+        mask = hf['mask'][:]
     return image[..., slice_idx], mask[..., slice_idx]
 
 
